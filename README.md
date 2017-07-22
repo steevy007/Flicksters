@@ -39,7 +39,7 @@ Les fonctionnalités ** supplémentaires ** suivantes sont implémentées:
 
 Voici une description détaillée des histoires d'utilisateurs implémentées:
 
-<Img src = 'http: //i.imgur.com/link/to/your/gif/file.gif' title = 'Video Walkthrough' width = '' alt = 'Video Walkthrough' />
+<Img src = 'https://github.com/steevy007/Flicksters/blob/master/Flicksters.gif' title = 'Flicksters' width = '' alt = 'Video Walkthrough' />
 
 GIF créé avec [LiceCap] (http://www.cockos.com/licecap/).
 
@@ -54,7 +54,7 @@ Décrivez les défis rencontrés lors de la création de l'application.
 
 ## Licence
 
-    Copyright [aaaa] [nom du titulaire du droit d'auteur]
+    Copyright [Flicksters] [Steeve Sanon]
 
     Licence sous Licence Apache, Version 2.0 (la "Licence");
     Vous ne pouvez pas utiliser ce fichier, sauf en conformité avec la licence.
