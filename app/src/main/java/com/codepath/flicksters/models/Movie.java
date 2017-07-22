@@ -10,6 +10,25 @@ import java.util.ArrayList;
 public class Movie {
     String posterpath;
 
+    String originalTitle;
+    String overview;
+    String backdroppath;
+
+
+
+    public Movie (JSONObject jsonObject) throws JSONException{
+        this.posterpath = jsonObject.getString("poster_path");
+        this.originalTitle = jsonObject.getString("original_title");
+        this.overview = jsonObject.getString("overview");
+        this.backdroppath = jsonObject.getString("backdrop_path");
+    }
+
+    public String getBackdroppath() {
+        return String.format("https://image.tmdb.org/t/p/w342/%s", backdroppath);
+    }
+
+
+
     public String getPosterpath() {
         return String.format("https://image.tmdb.org/t/p/w342/%s", posterpath);
     }
@@ -20,15 +39,6 @@ public class Movie {
 
     public String getOverview() {
         return overview;
-    }
-
-    String originalTitle;
-    String overview;
-
-    public Movie (JSONObject jsonObject) throws JSONException{
-        this.posterpath = jsonObject.getString("poster_path");
-        this.originalTitle = jsonObject.getString("original_title");
-        this.overview = jsonObject.getString("overview");
     }
 
     public static ArrayList<Movie> fromJSONArray(JSONArray array){
