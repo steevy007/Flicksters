@@ -39,7 +39,7 @@ Les fonctionnalités ** supplémentaires ** suivantes sont implémentées:
 
 Voici une description détaillée des histoires d'utilisateurs implémentées:
 
-<Img src = 'https://github.com/steevy007/Flicksters/blob/master/Flicksters.gif' title = 'Flicksters' width = '' alt = 'Video Walkthrough' />
+<Img src = 'https://github.com/steevy007/Flicksters/blob/master/Flicksters.gif' title = 'Flicksters' width = '100dp' alt = 'Video Walkthrough' />
 
 GIF créé avec [LiceCap] (http://www.cockos.com/licecap/).
 
