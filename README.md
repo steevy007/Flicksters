@@ -3,7 +3,7 @@
 
 ** Flicksters ** montre les derniers films en cours de lecture sur les théâtres. L'application utilise l'API Movie Database pour afficher les images et les informations de base sur ces films à l'utilisateur.
 
-Temps passé: **72 hours** heures dépensées au total
+Temps passé: **72** heures dépensées au total
 
 ## Histoires d'utilisateurs
 
@@ -11,9 +11,9 @@ La fonctionnalité ** requise ** est terminée:
 
 * [X] L'utilisateur peut ** faire défiler les films en cours ** à partir de l'API de la Base de données de film
 * [X] La mise en page est optimisée avec le modèle [ViewHolder] (http://guides.codepath.com/android/Using-an-ArrayAdapter-with-ListView#improving-performance-with-the-viewholder-pattern).
-* [] Pour chaque film affiché, l'utilisateur peut voir les détails suivants:
-  * [] Titre, image de l'affiche, vue d'ensemble (mode Portrait)
-  * [] Titre, image de fond, vue d'ensemble (mode paysage)
+* [X] Pour chaque film affiché, l'utilisateur peut voir les détails suivants:
+  * [X] Titre, image de l'affiche, vue d'ensemble (mode Portrait)
+  * [X] Titre, image de fond, vue d'ensemble (mode paysage)
 
 Les fonctionnalités suivantes ** optionnelles ** sont implémentées:
 
