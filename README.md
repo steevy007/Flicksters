@@ -45,8 +45,7 @@ GIF créé avec [LiceCap] (http://www.cockos.com/licecap/).
 
 ## Remarques
 
-
-I met a lot of constrained to re-read this basic project but thanks with the help of my teammate and staff codepath I was able to realize the project entitled Flicksters I think that in the days to come you will have another application on github has next ........
+J'ai rencontré beaucoup de contraintes pour realiserce projet de base, mais grâce à l'aide de mes coéquipiers et du staff codepath , j'ai pu réaliser le projet intitulé Flicksters. Je pense que dans les jours à venir, vous aurez une autre application sur github a bientot ....
 
 ## Bibliothèques open-source utilisées
 
