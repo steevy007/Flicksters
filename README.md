@@ -1,4 +1,9 @@
-# Flicksters
+# Flicksters -
+
+**Flicsters** shows the latest movies currently playing in theaters. The app utilizes the Movie Database API to display images and basic information about these movies to the user.
+
+Time spent: **72** hours spent in total
+
 ## User Stories
 
 The following **required** functionality is completed:
@@ -7,8 +12,9 @@ The following **required** functionality is completed:
 * [X] Layout is optimized with the [ViewHolder](http://guides.codepath.com/android/Using-an-ArrayAdapter-with-ListView#improving-performance-with-the-viewholder-pattern) pattern.
 * [X] For each movie displayed, user can see the following details:
   * [X] Title, Poster Image, Overview (Portrait mode)
-  * [] Title, Backdrop Image, Overview (Landscape mode)
-  The following **optional** features are implemented:
+  * [X] Title, Backdrop Image, Overview (Landscape mode)
+
+The following **optional** features are implemented:
 
 * [ ] Display a nice default [placeholder graphic](http://guides.codepath.com/android/Displaying-Images-with-the-Picasso-Library#configuring-picasso) for each image during loading.
 
@@ -32,13 +38,15 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://github.com/steevy007/Flicksters/blob/master/Flicksters.gif' title='Flicksters' width='' alt='Flicksters' />
+<img src='https://github.com/steevy007/Flicksters/blob/master/Flicksters.gif' width='200dp' alt='Video Flicksters' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+
+I encountered a lot of constraints for the basic base project, most thanks to the help of my teammates and the codepath staff, 
+I was able to carry out the project called Flicksters. I think in the days to come, you have another application on github a soon.
 
 ## Open-source libraries used
 
@@ -47,10 +55,10 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [Sanon Steeve] [Flicsters]
+    Copyright [Flicksters] [Sanon Steeve]
 
     Licensed under the Apache License, Version 2.0 (the "License");
-    you may not u[Sanon Steevese this file except in compliance with the License.
+    you may not use this file except in compliance with the License.
     You may obtain a copy of the License at
 
         http://www.apache.org/licenses/LICENSE-2.0
