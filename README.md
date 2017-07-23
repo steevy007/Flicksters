@@ -1,69 +1,70 @@
+# Flicksters -
 
-# # Flicksters - 
+**Flicsters** shows the latest movies currently playing in theaters. The app utilizes the Movie Database API to display images and basic information about these movies to the user.
 
-** Flicksters ** montre les derniers films en cours de lecture sur les théâtres. L'application utilise l'API Movie Database pour afficher les images et les informations de base sur ces films à l'utilisateur.
+Time spent: **72** hours spent in total
 
-Temps passé: **72** heures dépensées au total
+## User Stories
 
-## Histoires d'utilisateurs
+The following **required** functionality is completed:
 
-La fonctionnalité ** requise ** est terminée:
+* [X] User can **scroll through current movies** from the Movie Database API
+* [X] Layout is optimized with the [ViewHolder](http://guides.codepath.com/android/Using-an-ArrayAdapter-with-ListView#improving-performance-with-the-viewholder-pattern) pattern.
+* [X] For each movie displayed, user can see the following details:
+  * [X] Title, Poster Image, Overview (Portrait mode)
+  * [X] Title, Backdrop Image, Overview (Landscape mode)
 
-* [X] L'utilisateur peut ** faire défiler les films en cours ** à partir de l'API de la Base de données de film
-* [X] La mise en page est optimisée avec le modèle [ViewHolder] (http://guides.codepath.com/android/Using-an-ArrayAdapter-with-ListView#improving-performance-with-the-viewholder-pattern).
-* [X] Pour chaque film affiché, l'utilisateur peut voir les détails suivants:
-  * [X] Titre, image de l'affiche, vue d'ensemble (mode Portrait)
-  * [X] Titre, image de fond, vue d'ensemble (mode paysage)
+The following **optional** features are implemented:
 
-Les fonctionnalités suivantes ** optionnelles ** sont implémentées:
+* [ ] Display a nice default [placeholder graphic](http://guides.codepath.com/android/Displaying-Images-with-the-Picasso-Library#configuring-picasso) for each image during loading.
 
-* [] Affichez un bon défaut [graphique de l'espace réservé] (http://guides.codepath.com/android/Displaying-Images-with-the-Picasso-Library#configuring-picasso) pour chaque image pendant le chargement.
+The following **bonus** features are implemented:
 
-Les fonctionnalités ** bonus ** suivantes sont mises en œuvre:
+* [ ] Allow user to view details of the movie including ratings and popularity within a separate activity or dialog fragment.
+* [ ] When viewing a popular movie (i.e. a movie voted for more than 5 stars) the video should show the full backdrop image as the layout.  Uses [Heterogenous ListViews](http://guides.codepath.com/android/Implementing-a-Heterogenous-ListView) or [Heterogenous RecyclerView](http://guides.codepath.com/android/Heterogenous-Layouts-inside-RecyclerView) to show different layouts.
+* [ ] Allow video trailers to be played in full-screen using the YouTubePlayerView.
+    * [ ] Overlay a play icon for videos that can be played.
+    * [ ] More popular movies should start a separate activity that plays the video immediately.
+    * [ ] Less popular videos rely on the detail page should show ratings and a YouTube preview.
+* [ ] Apply the popular [Butterknife annotation library](http://guides.codepath.com/android/Reducing-View-Boilerplate-with-Butterknife) to reduce boilerplate code.
+* [ ] Apply rounded corners for the poster or background images using [Picasso transformations](https://guides.codepath.com/android/Displaying-Images-with-the-Picasso-Library#other-transformations)
+* [ ] Replaced android-async-http network client with the popular [OkHttp](http://guides.codepath.com/android/Using-OkHttp) networking libraries.
 
-* [] Permet à l'utilisateur d'afficher les détails du film, y compris les notes et la popularité dans une activité ou un fragment de dialogue distinct.
-* [] Lors de la visualisation d'un film populaire (c'est-à-dire qu'un film a voté pour plus de 5 étoiles), la vidéo devrait montrer l'image complète de la toile de fond comme la mise en page. Utilise [ListViews hétérogènes] (http://guides.codepath.com/android/Implementing-a-Heterogenous-ListView) ou [Heterogenous RecyclerView] (http://guides.codepath.com/android/Heterogenous-Layouts-inside- RecyclerView) pour afficher différentes mises en page.
-* [] Autoriser les disques vidéo à être reproduits en plein écran en utilisant YouTubePlayerView.
-    * [] Survolez une icône de lecture pour les vidéos qui peuvent être lues.
-    * [] Les films les plus populaires devraient commencer une activité distincte qui joue la vidéo immédiatement.
-    * [] Les vidéos moins populaires comptent sur la page de détail doivent afficher les notes et un aperçu de YouTube.
-* [] Appliquer la populaire [bibliothèque d'annotations Butterknife] (http://guides.codepath.com/android/Reducing-View-Boilerplate-with-Butterknife) pour réduire le code de l'étiquette.
-* [] Appliquer des coins arrondis pour l'affiche ou les images d'arrière-plan en utilisant [Transformations Picasso] (https://guides.codepath.com/android/Displaying-Images-with-the-Picasso-Library#other-transformations)
-* [] Remplace le client de réseau Android-async-http par les bibliothèques de réseau [OkHttp] (http://guides.codepath.com/android/Using-OkHttp) populaires.
+The following **additional** features are implemented:
 
-Les fonctionnalités ** supplémentaires ** suivantes sont implémentées:
-
-* [] Liste tout ce que vous pouvez faire pour améliorer la fonctionnalité de l'application!
+* [ ] List anything else that you can get done to improve the app functionality!
 
 ## Video Walkthrough
 
-Voici une description détaillée des histoires d'utilisateurs implémentées:
+Here's a walkthrough of implemented user stories:
 
-<Img src = 'https://github.com/steevy007/Flicksters/blob/master/Flicksters.gif' title = 'Flicksters' width = '200dp' alt = 'Video Walkthrough' />
+<img src='https://github.com/steevy007/Flicksters/blob/master/Flicksters.gif' width='200dp' alt='Video Flicksters' />
 
-GIF créé avec [LiceCap] (http://www.cockos.com/licecap/).
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
-## Remarques
+## Notes
 
-J'ai rencontré beaucoup de contraintes pour realiserce projet de base, mais grâce à l'aide de mes coéquipiers et du staff codepath , j'ai pu réaliser le projet intitulé Flicksters. Je pense que dans les jours à venir, vous aurez une autre application sur github a bientot ....
 
-## Bibliothèques open-source utilisées
+I encountered a lot of constraints for the basic base project, most thanks to the help of my teammates and the codepath staff, 
+I was able to carry out the project called Flicksters. I think in the days to come, you have another application on github a soon.
 
-- [Android Async HTTP] (https://github.com/loopj/android-async-http) - Requêtes HTTP asynchrones simples avec analyse JSON
-- [Picasso] (http://square.github.io/picasso/) - Bibliothèque de chargement et de mise en cache d'images pour Android
+## Open-source libraries used
 
-## Licence
+- [Android Async HTTP](https://github.com/loopj/android-async-http) - Simple asynchronous HTTP requests with JSON parsing
+- [Picasso](http://square.github.io/picasso/) - Image loading and caching library for Android
 
-    Copyright [Flicksters] [Steeve Sanon]
+## License
 
-    Licence sous Licence Apache, Version 2.0 (la "Licence");
-    Vous ne pouvez pas utiliser ce fichier, sauf en conformité avec la licence.
-    Vous pouvez obtenir une copie de la licence au
+    Copyright [Flicksters] [Sanon Steeve]
 
-        Http://www.apache.org/licenses/LICENSE-2.0
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
 
-    À moins d'être exigé par la loi applicable ou accepté par écrit, le logiciel
-    Distribué sous la licence est distribué sur une base "TEL QUEL"
-    SANS GARANTIE OU CONDITION DE QUELQUE NATURE QUE CE SOIT, express ou implicite.
-    Voir la licence pour la langue spécifique qui régit les autorisations et
-    Limitations de la licence.
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
